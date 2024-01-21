@@ -1,0 +1,81 @@
+<!-- HTML is primarily used to create and structure the content of the website -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2048</title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<meta property="og:title" content="I coded a game with Zuitt!" />
+    <meta property="og:description" content="This Game Development project is powered by Zuitt Coding Bootcamp" />
+    <meta property="og:site_name" content="I coded a game with Zuitt!" />
+    <meta property="og:image" content="[your-deployment-link]/images/story-thumbnail-2048.jpg" />
+    <meta property="og:image:secure_url" content="[your-deployment-link]" />
+
+</head>
+<body>
+	<div class ="container">
+		<!-- To create html contents, we usually use paired tags or self-closing tags -->
+
+		<!-- HTML offers six levels of headings, from `<h1>` (the biggest heading) to `<h6>` the smallest heading. -->
+		<h1>2048</h1> <!-- Paired tags -->
+		<h2>Created by MJ</h2>
+		<hr id="top-line">
+		<div class="header-container">
+			<div class="score-container">
+				<div class="score-label">
+					Score:
+				</div>
+				<div id="score">
+					0
+				</div>
+				</div>
+				<div class="share-button-container">
+				<div class ="share-label">
+					Share:	
+				</div>
+				<div class="share-icons">
+					<a href="https://www.facebook.com/sharer/sharer.php?u=[your-deployment-link]"><img src="./images/share_2048-fb.svg"></a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- <div> tag are usually used as container to group contents -->
+	   <!-- id attribute is to provide a unique identifier for styling and manipulation using CSS and JS -->
+	   <!-- Trivia: In programming, our count usually starts at zero -->
+		<div id="board">
+			<!-- <div class="tile x2">[r0,c0]</div>
+			<div class="tile x8192">[r0,c1]</div>
+			<div class="tile">[r0,c2]</div>
+			<div class="tile">[r0,c3]</div>
+
+			<div class="tile">[r1,c0]</div>
+			<div class="tile">[r1,c1]</div>
+			<div class="tile">[r1,c2]</div>
+			<div class="tile">[r1,c3]</div>
+
+			<div class="tile">[r2,c0]</div>
+			<div class="tile">[r2,c1]</div>
+			<div class="tile">[r2,c2]</div>
+			<div class="tile">[r2,c3]</div>
+
+			<div class="tile">[r3,c0]</div>
+			<div class="tile">[r3,c1]</div>
+			<div class="tile">[r3,c2]</div>
+			<div class="tile">[r3,c3]</div>
+	 -->
+		</div>
+	</div>
+	
+
+
+
+
+	<script type="text/javascript" src="logic.js"></script>
+
+</body>
+
+</html>
